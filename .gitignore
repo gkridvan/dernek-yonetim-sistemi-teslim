@@ -1,0 +1,10 @@
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+# You asked to ignore only DBs. If later desired, add logs/backups below:
+# logs/
+# backups/
+# DernekYonetimSistemi.exe
+# _internal/
