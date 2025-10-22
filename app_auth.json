@@ -1,0 +1,16 @@
+{
+  "users": {
+    "admin": {
+      "username": "admin",
+      "password_hash": "2c07cf3a73d3da866672dccc5ad1942d342bf76f7e5b8ebd5ed34589f5c45ec8",
+      "created_at": "2025-10-16T17:18:28.374729",
+      "last_login": "2025-10-16T17:18:34.937735",
+      "failed_attempts": 0,
+      "locked_until": null,
+      "recovery_question": "Annenizin kızlık soyadı nedir?",
+      "recovery_answer_hash": "d5ffbdf446e159b92e35d456031b7ca328fdb24efa6b54e8d060b0c62274c14b"
+    }
+  },
+  "created_at": "2025-10-16T17:18:45.679948",
+  "version": "1.0"
+}

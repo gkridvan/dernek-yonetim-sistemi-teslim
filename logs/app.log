@@ -1,0 +1,24 @@
+2025-10-16 17:18:28,375 - infrastructure.auth_service - INFO - auth_service.py:132 - User data saved successfully
+2025-10-16 17:18:28,375 - infrastructure.auth_service - INFO - auth_service.py:152 - Default admin user created - username: admin, password: admin123
+2025-10-16 17:18:29,077 - widgets.login_dialog - INFO - login_dialog.py:601 - Loaded remembered username: admin
+2025-10-16 17:18:34,938 - infrastructure.auth_service - INFO - auth_service.py:132 - User data saved successfully
+2025-10-16 17:18:34,938 - infrastructure.auth_service - INFO - auth_service.py:251 - Session created for user 'admin'
+2025-10-16 17:18:34,939 - infrastructure.auth_service - INFO - auth_service.py:354 - AUTH EVENT: login_success - admin - User logged in successfully
+2025-10-16 17:18:34,940 - infrastructure.auth_service - INFO - auth_service.py:196 - User 'admin' authenticated successfully
+2025-10-16 17:18:34,952 - utils.login_settings - INFO - login_settings.py:39 - Login settings saved
+2025-10-16 17:18:34,952 - utils.login_settings - INFO - login_settings.py:53 - Username 'admin' saved for remember me
+2025-10-16 17:18:34,953 - widgets.login_dialog - INFO - login_dialog.py:481 - Username 'admin' saved for remember me
+2025-10-16 17:18:45,680 - infrastructure.auth_service - INFO - auth_service.py:132 - User data saved successfully
+2025-10-16 17:18:45,680 - infrastructure.auth_service - INFO - auth_service.py:354 - AUTH EVENT: recovery_info_set - admin - Recovery information updated
+2025-10-16 17:18:45,681 - infrastructure.auth_service - INFO - auth_service.py:413 - Recovery info set for user 'admin'
+2025-10-16 17:18:47,622 - __main__ - INFO - main.py:1077 - User 'admin' logged in successfully
+2025-10-16 17:18:47,631 - APP_FUNCTIONS - INFO - app_functions.py:50 - Application initialized successfully
+2025-10-16 17:18:48,915 - infrastructure.database_backup_service - INFO - database_backup_service.py:67 - Database backup created: backups\daily_backup_20251016.db
+2025-10-16 17:18:48,926 - infrastructure.database_backup_service - INFO - database_backup_service.py:177 - Cleanup completed. Removed 0 old backups
+2025-10-16 17:18:48,926 - infrastructure.database_backup_service - INFO - database_backup_service.py:206 - Automated daily backup created: backups\daily_backup_20251016.db
+2025-10-16 17:18:48,926 - __main__ - INFO - main.py:1005 - Daily automatic backup created successfully
+2025-10-16 17:18:48,932 - __main__ - INFO - main.py:984 - Age-18 notifications ensured on startup. Newly created: 0
+2025-10-16 17:19:56,262 - __main__ - INFO - main.py:1040 - Uygulama kapatılıyor, veritabanı bağlantısı sonlandırılıyor...
+2025-10-16 17:19:56,281 - infrastructure.auth_service - INFO - auth_service.py:354 - AUTH EVENT: logout - admin - User logged out
+2025-10-16 17:19:56,285 - infrastructure.auth_service - INFO - auth_service.py:259 - User 'admin' logged out
+2025-10-16 17:19:56,286 - __main__ - INFO - main.py:1090 - User logged out

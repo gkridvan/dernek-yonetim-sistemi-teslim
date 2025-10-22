@@ -1,0 +1,46 @@
+{
+    "database": {
+        "name": "association.db",
+        "backup_enabled": true,
+        "backup_interval_days": 7
+    },
+    "ui": {
+        "theme": "light",
+        "font_family": "Segoe UI",
+        "font_size": 10,
+        "window_size": [
+            1200,
+            800
+        ],
+        "remember_window_position": true,
+        "language": "tr"
+    },
+    "payment_settings": {
+        "aidat_amount": 100.0,
+        "aidat_currency": "€",
+        "kayit_fee_young": 200.0,
+        "kayit_fee_adult": 400.0,
+        "registration_fee_18_30": 50.0,
+        "registration_fee_30_40": 400.0,
+        "registration_fee_40_50": 800.0,
+        "registration_fee_50_60": 1200.0,
+        "registration_fee_60_70": 1600.0
+    },
+    "export": {
+        "default_format": "Excel",
+        "default_path": "",
+        "include_header": true
+    },
+    "logging": {
+        "enabled": true,
+        "level": "INFO",
+        "file_path": "logs/app.log",
+        "max_file_size_mb": 10,
+        "backup_count": 5
+    },
+    "security": {
+        "session_timeout_minutes": 120,
+        "auto_backup": true,
+        "remember_last_session": true
+    }
+}

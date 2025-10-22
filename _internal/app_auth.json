@@ -1,0 +1,16 @@
+{
+  "users": {
+    "admin": {
+      "username": "admin",
+      "password_hash": "2aab70a843d7626d007e27c43fe9a685abf92d9352312f64888319b89e63d722",
+      "created_at": "2025-10-11T15:24:34.035155",
+      "last_login": "2025-10-22T10:30:58.912803",
+      "failed_attempts": 0,
+      "locked_until": null,
+      "recovery_question": "İlk evcil hayvanınızın adı neydi?",
+      "recovery_answer_hash": "502cbf1765304430d1a13a2ad2fd29e61cf7b325cdecec5635701e4adff4aaa9"
+    }
+  },
+  "created_at": "2025-10-22T10:30:58.912840",
+  "version": "1.0"
+}

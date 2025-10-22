@@ -1,1 +1,0 @@
-# dernek-yonetim-sistemi-teslim
