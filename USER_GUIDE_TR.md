@@ -20,6 +20,13 @@ Bilgi: Uygulama ilk açılışta penceresini ekranı kaplayacak şekilde açar. 
 - Üst menü: Dosya (Dışa Aktar, Yedek) • Düzenle (Yeni Üye/Ödeme) • Görünüm (Sütunlar, Tema) • Ayarlar • Yardım
 - Sayfalar tablo odaklıdır; arama kutuları ve hızlı filtreler bulunur.
 
+### 3.1) Tarih Alanı (Genel)
+- Yazım formatı: dd.MM.yyyy (ör. 03.11.2025). Yer tutucu: gg.aa.yyyy
+- Tıklayınca doğrudan yazabilirsiniz (imleç gün kısmında). Maskeli giriş etkin olan yerlerde 00.00.0000;_ şeklinde kılavuz görünür.
+- Silme: Delete/Backspace ile tamamen temizlenir; ESC ile hızlı temizleme. Sağ tık menüsünde "Temizle" de vardır.
+- Farklı yazımlar (01012025, 1.1.25, 2025-01-01) odak kaybında otomatik dd.MM.yyyy’e normalize edilir.
+- Geçersiz girişler kaydı engellemez; alan nazikçe kırmızı çerçeveyle uyarır.
+
 ## 4) Üyeler Sayfası
 - Yeni Üye: “Düzenle > Yeni Üye” veya Ctrl+N
 - Arama/Filtre/Sıralama: Üstteki arama kutusunu ve sütun başlıklarını kullanın.
@@ -51,6 +58,11 @@ Bilgi: Uygulama ilk açılışta penceresini ekranı kaplayacak şekilde açar. 
 	- “Üye Gideri”: Bireysel üyelere bağlı harcamalar içindir.
 	- “Dernek Giderleri” (aşağıda) derneğin kurumsal/organizasyonel giderleri içindir; Ödemeler’den ayrıdır.
 - Dışa Aktar: Ctrl+E ile sadece seçili satırlar dışa aktarılır.
+
+Özet satırı:
+- Altta görünen Gelir/Gider/Net değerleri yalnızca "Ödendi" satırları üzerinden hesaplanır.
+- "Ödenmedi" filtresi açıkken Gelir ve Gider 0.00€ görünür.
+- "Üye Gideri" türü, yalnızca ödendiyse Gider toplamına dahil edilir.
 
 Not: Bir üye vefat olarak işaretlendiğinde oluşturulan “Üye Gideri” ödemesi listede görünür ve “Vefat Edenler” sayfasındaki ilgili sütunda da yer alır. Vefat tarihi ve ilgili gider tarihi varsayılan olarak bugünün tarihiyle başlatılır; istenirse düzenlenebilir.
 

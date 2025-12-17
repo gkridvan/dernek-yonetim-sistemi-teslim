@@ -1,6 +1,0 @@
-{
-  "timestamp": "20251028_133349",
-  "action": "pre-merge backup",
-  "target_db": "c:\\\\Users\\\\gkrid\\\\Desktop\\\\dernek app\\\\dernek-yonetim-sistemi\\association.db",
-  "source_db": "c:\\\\Users\\\\gkrid\\\\Desktop\\\\dernek app\\\\dernek-yonetim-sistemi\\database\\musteriyedek.db"
-}
