@@ -3,10 +3,8 @@
 *.sqlite
 *.sqlite3
 
-# Internal folder (PyInstaller output - already installed on client)
-_internal/
-
 # You asked to ignore only DBs. If later desired, add logs/backups below:
 # logs/
 # backups/
 # DernekYonetimSistemi.exe
+# _internal/
