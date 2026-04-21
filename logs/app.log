@@ -22,3 +22,20 @@
 2025-10-16 17:19:56,281 - infrastructure.auth_service - INFO - auth_service.py:354 - AUTH EVENT: logout - admin - User logged out
 2025-10-16 17:19:56,285 - infrastructure.auth_service - INFO - auth_service.py:259 - User 'admin' logged out
 2025-10-16 17:19:56,286 - __main__ - INFO - main.py:1090 - User logged out
+2026-04-09 20:22:55,496 - widgets.login_dialog - INFO - login_dialog.py:622 - Loaded remembered username: admin
+2026-04-09 20:23:01,194 - infrastructure.auth_service - INFO - auth_service.py:132 - User data saved successfully
+2026-04-09 20:23:01,194 - infrastructure.auth_service - INFO - auth_service.py:251 - Session created for user 'admin'
+2026-04-09 20:23:01,194 - infrastructure.auth_service - INFO - auth_service.py:356 - AUTH EVENT: login_success - admin - User logged in successfully
+2026-04-09 20:23:01,195 - infrastructure.auth_service - INFO - auth_service.py:196 - User 'admin' authenticated successfully
+2026-04-09 20:23:01,197 - utils.login_settings - INFO - login_settings.py:39 - Login settings saved
+2026-04-09 20:23:01,197 - utils.login_settings - INFO - login_settings.py:53 - Username 'admin' saved for remember me
+2026-04-09 20:23:01,197 - widgets.login_dialog - INFO - login_dialog.py:502 - Username 'admin' saved for remember me
+2026-04-09 20:23:01,700 - __main__ - INFO - main.py:1399 - User 'admin' logged in successfully
+2026-04-09 20:23:01,728 - database.database - INFO - database.py:442 - Notifications tablosundaki hatalı foreign key kaldırıldı ve tablo yeniden oluşturuldu
+2026-04-09 20:23:01,731 - APP_FUNCTIONS - INFO - app_functions.py:50 - Application initialized successfully
+2026-04-09 20:23:01,800 - infrastructure.database_backup_service - INFO - database_backup_service.py:67 - Database backup created: backups\daily_backup_20260409.db
+2026-04-09 20:23:01,800 - infrastructure.database_backup_service - INFO - database_backup_service.py:177 - Cleanup completed. Removed 0 old backups
+2026-04-09 20:23:01,800 - infrastructure.database_backup_service - INFO - database_backup_service.py:206 - Automated daily backup created: backups\daily_backup_20260409.db
+2026-04-09 20:23:01,800 - __main__ - INFO - main.py:1292 - Daily automatic backup created successfully
+2026-04-09 20:23:01,800 - __main__ - INFO - main.py:1271 - Age-18 notifications ensured on startup. Newly created: 0
+2026-04-09 20:23:20,995 - __main__ - INFO - main.py:1327 - Uygulama kapatılıyor, veritabanı bağlantısı sonlandırılıyor...
