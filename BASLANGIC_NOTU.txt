@@ -7,3 +7,4 @@ Dernek Yönetim Sistemi (v2.0) • Hızlı Başlangıç
 5) Dışa aktar: Ctrl+E (PDF/Excel/CSV/TXT)
 6) Çıkış: Ctrl+Q (onay ister)
 
+Not: EXE penceresi arkasında siyah terminal görünmez; sorun çıkarsa ‘logs/app.log’ dosyasını paylaşın.
